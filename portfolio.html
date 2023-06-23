@@ -291,22 +291,22 @@
             <p class="join-us">Dołącz do nas</p>
             <ul class="footer-icon-list">
               <li class="footer-icon-item">
-                <svg class="footer-icon" width="20" height="20">
+                <svg class="footer-icon-socials" width="20" height="20">
                   <use href="images/icons.svg#icon-instagram"></use>
                 </svg>
               </li>
               <li class="footer-icon-item">
-                <svg class="footer-icon" width="20" height="20">
+                <svg class="footer-icon-socials" width="20" height="20">
                   <use href="images/icons.svg#icon-twitter"></use>
                 </svg>
               </li>
               <li class="footer-icon-item">
-                <svg class="footer-icon" width="20" height="20">
+                <svg class="footer-icon-socials" width="20" height="20">
                   <use href="images/icons.svg#icon-facebook"></use>
                 </svg>
               </li>
               <li class="footer-icon-item">
-                <svg class="footer-icon" width="20" height="20">
+                <svg class="footer-icon-socials" width="20" height="20">
                   <use href="images/icons.svg#icon-linkedin"></use>
                 </svg>
               </li>
@@ -328,5 +328,75 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="buton-modal" data-modal-close><b>X</b></button>
+        <form>
+          <h3 class="form-title">Zostaw swoje dane w formularzu poniżej</h3>
+          <div class="name">
+            <label class="order-label" for="user-name"
+              >Imię<input
+                class="order-input"
+                type="text"
+                name="name"
+                id="user-name"
+            /></label>
+          </div>
+
+          <div class="phone">
+            <label class="order-label" for="user-phone">
+              Telefon
+              <input
+                class="order-input"
+                type="tel"
+                name="phone"
+                id="user-phone"
+              />
+            </label>
+          </div>
+          <div class="email">
+            <label class="order-label" for="user-email">
+              Email
+              <input
+                class="order-input"
+                type="email"
+                name="email"
+                id="user-email"
+              />
+            </label>
+          </div>
+          <label class="order-label-comment" for="user-comment"
+            >Komentarz
+            <textarea
+              class="order-textarea"
+              name="order"
+              id="user-comment"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </label>
+
+          <label class="acceptance-label" for="user-acceptance">
+            <div class="acceptance-checked">
+              <input
+                class="acceptance-input"
+                type="checkbox"
+                name="acceptance"
+                id="user-acceptance"
+              />
+              <svg class="checked-background" width="16" height="15">
+                <use href="images/icons.svg#icon-checked"></use>
+              </svg>
+            </div>
+            <p class="acceptance-text">
+              Oświadczam iż akceptuję&nbsp; <a href="#">Regulamin</a>&nbsp;i
+              <a href="#">&nbsp;Politykę Prywatności</a>.
+            </p>
+          </label>
+
+          <button type="submit" class="order-button" lang="pl">Wyślij</button>
+        </form>
+      </div>
+      <script src="./js/modal.js"></script>
+    </div>
   </body>
 </html>

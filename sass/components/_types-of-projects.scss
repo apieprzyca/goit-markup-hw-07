@@ -33,15 +33,16 @@
     color: getColor("elementary");
     width: auto;
     padding: 6px 22px 6px 22px;
-  }
-  &:hover,
-  &:focus,
-  &:active {
-    cursor: pointer;
-    background-color: getColor("accent");
-    color: rgb(236, 238, 240);
-    border-radius: 2px;
-    text-decoration: underline getColor("accent");
+
+    &:hover,
+    &:focus,
+    &:active {
+      cursor: pointer;
+      color: getColor("accentlight");
+      background-color: getColor("accent");
+      border-radius: 2px;
+      text-decoration: underline getColor("accent");
+    }
   }
   &__button .link {
     background-color: getColor("auxiliary");

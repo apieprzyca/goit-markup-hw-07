@@ -362,7 +362,7 @@ ul {
 .goals {
   background-color: #ffffff;
 }
-*/
+
 .clients {
   background-color: #ffffff;
   font-family: Roboto;
@@ -411,6 +411,7 @@ ul {
 .clients-list__icon {
   fill: #afb1b8;
 }
+/*
 /*
 .team {
   background-color: #f5f4fa;
@@ -632,7 +633,7 @@ footer {
   margin-top: 72px;
   margin-left: 70px;
 }
-
+/*
 .types-of-projects ul,
 .types-of-projects__item li {
   list-style-type: none;
@@ -707,7 +708,7 @@ footer {
   color: rgba(255, 255, 255, 1);
   padding: 6px 22px 6px 22px;
 }
-*/
+
 
 .types-of-projects__button {
   font-weight: 500;
@@ -735,6 +736,7 @@ footer {
   background-color: #f5f4fa;
   cursor: pointer;
 }
+*/
 .header-style {
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -810,7 +812,7 @@ footer {
   border-width: 0px;
   border-top: 0px;
 }
-*/
+
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
@@ -856,13 +858,14 @@ footer {
   border-style: none;
   border-bottom: 0px;
 }
-*/
+
 .projects-grid-container {
   width: 370;
   height: 294;
   position: relative;
   overflow: hidden;
 }
+*/
 .backdrop {
   position: fixed;
   top: 0;

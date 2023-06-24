@@ -22,11 +22,17 @@
       padding-left: 100px;
       padding-top: 25px;
       background: getColor("auxiliary");
+      &:hover,
+      &:focus {
+        border: 1px solid getColor("accent");
+      }
     }
-    &:hover,
-    &:focus {
-      fill: getColor("accent");
-      border: 1px solid getColor("accent");
+
+    &__icon {
+      &:hover,
+      &:focus {
+        fill: getColor("accent");
+      }
     }
   }
 

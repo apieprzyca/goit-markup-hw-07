@@ -10,12 +10,41 @@
   margin: 0 auto;
 
   &__title {
-    margin-bottom: 30;
     font-weight: 900;
-    font-size: 44px;
+    font-size: $fontSizeXL;
     letter-spacing: 0.06em;
-    line-height: 1.4;
     color: getColor("accentlight");
     margin-bottom: 30px;
+    max-width: 692px;
+    padding-top: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+  }
+
+  &__button {
+    background-color: getColor("accent");
+    color: getColor("accentlight");
+    font-weight: 700;
+    font-size: $fontSizeS;
+    line-height: 1.875;
+    width: 200px;
+    padding: 10px 0;
+    margin: 30px 700px 200px 700px;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    transition: background-color $transBackColor;
+  }
+  &__button:hover,
+  &__button:active,
+  &__button:focus {
+    cursor: pointer;
+    text-decoration: underline getColor("accent");
   }
 }

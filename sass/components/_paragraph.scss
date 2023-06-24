@@ -23,8 +23,8 @@
       padding-top: 25px;
       background: getColor("auxiliary");
     }
-    &__icon:hover,
-    &__icon:focus {
+    &:hover,
+    &:focus {
       fill: getColor("accent");
       border: 1px solid getColor("accent");
     }
@@ -41,7 +41,7 @@
 
   &__title {
     font-weight: 700;
-    font-size: 14px;
+    font-size: $fontSizeXS;
     line-height: 1, 14;
     color: getColor("elementary");
     text-transform: uppercase;

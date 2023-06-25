@@ -1,9 +1,12 @@
 .socialmedia-icon-item {
   @extend .teamcard-socials__image;
   fill: getColor("accentlight");
+  color: getColor("accentlight");
 }
+
 .socialmedia-icons-footer {
   @extend .teamcard-socials__item;
   background-color: rgba(255, 255, 255, 0.1);
   fill: getColor("accentlight");
+  color: getColor("accentlight");
 }

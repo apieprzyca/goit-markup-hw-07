@@ -30,8 +30,8 @@
 
     &:hover,
     &:focus {
-      background-color: getColor("accent");
       fill: getColor("accentlight");
+      background-color: getColor("accent");
     }
   }
 }

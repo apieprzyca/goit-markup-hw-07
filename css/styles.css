@@ -83,7 +83,7 @@ header {
   border-bottom: 1px;
 }
 */
-.header-title {
+.header-__logo {
   font-family: Raleway;
   font-style: bold;
   font-size: 26px;
@@ -95,7 +95,7 @@ header {
   background-color: #ffffff;
 }
 
-.header-title-web {
+.logo-main--accent {
   color: #2196f3;
 }
 

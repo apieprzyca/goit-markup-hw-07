@@ -192,6 +192,8 @@
         .order__checkbox-background {
           display: block;
           visibility: visible;
+          fill: getColor("accentlight");
+          background-color: getColor("accent");
         }
       }
     }
